@@ -1,4 +1,4 @@
-# build-redis-with-cpp  
+# Redis-Clone  
 Redis is a memory database, which is a highly performant database that can proceed with large data sets.  
 This project follows the guidelines from the website: build-your-own.org.  
 The project uses CPP and C programming languages to build Redis. 
@@ -101,7 +101,7 @@ C offers low-level access to memory and minimal abstraction overhead
 2. **hashtable.cpp**: Contains the implementation of the hash table functions such as initialization, insertion, lookup, and deletion.  
 3. **server.cpp**: Uses the hash table to create a server that can handle basic commands like set, get, and del to manipulate key-value pairs stored in the hash table.  
 
-### how to Run?
+### How to Run?
 ```shell
 # Compile the code
 g++ -std=c++11 -o server server.cpp hashtable.cpp
